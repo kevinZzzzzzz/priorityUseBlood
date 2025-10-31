@@ -57,6 +57,11 @@ const Router = () => {
           path: "submitResult",
           element: LazyLoad(lazy(() => import(/* webpackChunkName: "submitResult" */ '@/pages/SubmitResult/index'))),
           meta: { title: "提交结果", requiresAuth: true, needBack: true }
+        },
+        {
+          path: "orderList",
+          element: LazyLoad(lazy(() => import(/* webpackChunkName: "orderList" */ '@/pages/OrderList/index'))),
+          meta: { title: "我的申请", requiresAuth: true, needBack: true }
         }
       ]
     },

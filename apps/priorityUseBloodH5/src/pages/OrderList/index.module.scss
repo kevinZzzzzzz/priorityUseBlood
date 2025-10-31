@@ -1,0 +1,14 @@
+.orderList {
+  width: 100%;
+  &_tabs {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+  }
+  &_content {
+    margin-top: 40px;
+    padding: 16px;
+  }
+}
