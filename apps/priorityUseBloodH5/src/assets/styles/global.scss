@@ -1,0 +1,16 @@
+$navbarHeight: 44px;
+$pagePadding: 16px;
+
+:root {
+  --adm-color-primary: #4BBBA1FF;
+}
+
+.updateComp {
+  width: 80px;
+  height: 80px;
+  background: #F3F3F3;
+  border-radius: 5px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}

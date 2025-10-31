@@ -1,0 +1,32 @@
+.navbar {
+  height: $navbarHeight;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  &_back {
+    font-size: 16px;
+    color: #323233;
+    position: absolute;
+    left: 16px;
+  }
+  &_title {
+    font-weight: bold;
+    font-size: 17px;
+    color: #323233;
+  }
+}
+.content {
+  min-height: calc(100dvh);
+  background: #F7F8FA;
+  padding-top: $navbarHeight;
+  overflow: hidden;
+  &-wx {
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.confirmStart {
+  width: 100%;
+  &_boxList {
+    margin-top: 16px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    &_item {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 6px 12px;
+      background: #FFFFFF;
+      border-radius: 4px 4px 4px 4px;
+      border: 1px solid #1890FF;
+      img {
+        margin-right: 10px;
+      }
+      p {
+        font-weight: bold;
+        font-size: 16px;
+        color: #323233;
+      }
+    }
+  }
+}
